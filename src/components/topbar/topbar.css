@@ -1,0 +1,81 @@
+/* Default styles for larger screens */
+.your-selector-left {
+  background: rgba(0, 0, 0, 0.3);
+  width: max-content;
+  display: flex;
+  padding: 0.7rem 1.7rem;
+  transform: translateX(-50%);
+  z-index: 2;
+  border-radius: 2rem;
+  backdrop-filter: blur(15px);
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+  position: fixed;
+  left: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.your-selector-left svg,
+.your-selector-bottom svg {
+  color: green;
+}
+
+/* Styles for smaller screens */
+.your-selector-bottom {
+  background: rgba(0, 0, 0, 0.3);
+  width: max-content;
+  display: block;
+  padding: 0.7rem 1.7rem;
+  z-index: 2;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 2rem;
+  display: flex;
+  gap: 5rem;
+  border-radius: 3rem;
+  backdrop-filter: blur(15px);
+}
+@media screen and (max-width: 1200px) {
+  
+  .your-selector-left {
+    padding: 0.5rem 1rem; 
+    gap: 2rem;
+  }
+
+  .your-selector-bottom {
+    padding: 0.5rem 1rem; 
+    gap: 2rem; 
+  }
+}
+@media screen and (max-width: 750px) {
+  
+  .your-selector-left {
+    padding: 0.3rem 0.5rem; 
+    gap: 1rem;
+  }
+
+  .your-selector-bottom {
+    padding: 0.3rem 0.5rem; 
+    gap: 1rem; 
+  }
+}
+
+nav a {
+  background: transparent;
+  padding: 0.9rem;
+  border-radius: 50%;
+  display: flex;
+  color: var(--color-light);
+  font-size: 1.1rem;
+}
+
+nav a:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+nav a.active {
+  background: var(--color-bg);
+  color: var(--color-white);
+}
