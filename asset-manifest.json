@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Sri-Portfolio/static/css/main.91af1aed.css",
+    "main.js": "/Sri-Portfolio/static/js/main.350aabe5.js",
+    "static/media/starbucks.png": "/Sri-Portfolio/static/media/starbucks.a3a079fc1211dbf44e5b.png",
+    "static/media/Harshini-Popuri.pdf": "/Sri-Portfolio/static/media/Harshini-Popuri.634bb48de7f85ed5aa59.pdf",
+    "static/media/chatbot.png": "/Sri-Portfolio/static/media/chatbot.157bba3295024c198d2f.png",
+    "static/media/weather-app.png": "/Sri-Portfolio/static/media/weather-app.646a356ae102334b4a28.png",
+    "index.html": "/Sri-Portfolio/index.html",
+    "main.91af1aed.css.map": "/Sri-Portfolio/static/css/main.91af1aed.css.map",
+    "main.350aabe5.js.map": "/Sri-Portfolio/static/js/main.350aabe5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91af1aed.css",
+    "static/js/main.350aabe5.js"
+  ]
+}
